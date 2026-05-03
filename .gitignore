@@ -1,0 +1,49 @@
+# ==========================================
+# Katakana CNN Project Specifics
+# ==========================================
+# Ignore raw binary datasets inside the parser folder (but KEEP the python script!)
+parser/ETL1C_*
+parser/ETL1INFO
+parser/ETL6C_*
+
+# Ignore processed numpy/TensorFlow datasets (these are huge!)
+*.npy
+*.npz
+
+# Ignore saved Model weights (PyTorch and TensorFlow)
+*.pth
+*.pt
+*.keras
+
+# ==========================================
+# Python & Environments
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# OS & IDE Files
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# VS Code / PyCharm
+.vscode/
+.idea/
